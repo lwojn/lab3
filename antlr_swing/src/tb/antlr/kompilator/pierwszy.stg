@@ -1,0 +1,34 @@
+group pierwszy;
+
+int(i) ::= <<
+PUSH #<i>
+>>
+
+//dodaj(p1, p2) ::= "<p1> ... i nie zawaham się go użyć..."
+dodaj(p1, p2) ::= <<
+<p1>
+<p2>
+ADD
+>>
+
+odejmij(p1, p2) ::= <<
+<p1>
+<p2>
+SUB
+>>
+
+pomnoz(p1, p2) ::= <<
+<p1>
+<p2>
+MUL
+>>
+
+podziel(p1, p2) ::= <<
+<p1>
+<p2>
+DIV
+>>
+
+deklaruj(p1) ::= <<
+DD <p1>
+>>
